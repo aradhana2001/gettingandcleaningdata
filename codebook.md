@@ -24,6 +24,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 + Step 1: Load the training set and the test set using read.table command
 + Step 2: Merge the training and the test sets to create one data set using rbind(train, test). Get "Xmerged", "ymerged", "subjectmerged".
 + Step 3: Extract only the mean and standard deviation for each measurement. In details, follow the following steps
+
           + Use "grep()" command to find the features'names containing "*mean()*" and "*std()". 
           + Exact those columns from "Xmerged" to get "Xextracted".
           + rename the columns' names using descriptive measurements.
