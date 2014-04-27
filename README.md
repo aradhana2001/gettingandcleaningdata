@@ -5,7 +5,6 @@ This repository contains the following files
 + README.md
 + run_analysis.R: the main code to process the data
 + codebook.md: describe all variables, data and explain steps to clean the data 
-+ tidydata.txt: the processed data
 
 ## Set up 
 1. Unzip the source data (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and save it into a folder on your local drive. For example, "/Users/yourname/Documents/get&cleandata".
