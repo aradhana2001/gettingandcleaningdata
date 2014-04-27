@@ -29,6 +29,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
           + Exact those columns from "Xmerged" to get "Xextracted".
           + rename the columns' names using descriptive measurements.
 + Step 4: Use descriptive activity names for "ymerged". In details, 
+
           + read the activity labels, save as "actlable".
           + transfer the labels' names to factor format using factor(x=actlable$V2,levels=actlable$V2) command.
           + define the descriptiveactivity which is actlabel$V2[ymerged[,]].
