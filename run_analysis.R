@@ -44,5 +44,5 @@ colnames(newdata)<-c("subject","descriptiveactivity",colnames(Xextracted))
 
 library(data.table)
 myDT<-data.table(newdata)
-tidydata<-myDT[,lapply(.SD,mean),by=paste(subject,"&" ,descriptiveactivity)]
-setnames(tidydata,"paste","subject & activity")
+tidydata<-myDT[,lapply(.SD,mean),by=list(subject,descriptiveactivity)]
+write.table(tidydata,file="tidydata.txt")
